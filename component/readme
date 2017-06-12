@@ -1,8 +1,0 @@
-组件文件夹
-1.在demo目录下进行组件的新建，依赖npm包管理工具管理。
-具体的新建流程，请查阅http://m.blog.csdn.net/article/details?id=51322637
-
-2.在test文件夹中对新建的组件进行测试
-在test文件夹中打开cmd窗口
-npm install
-npm run dev
