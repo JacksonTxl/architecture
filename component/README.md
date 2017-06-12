@@ -16,12 +16,12 @@
 <p style="font-weight:bold;font-size:16px">模块化(顺带提一下)</p>
 <p>至于对于JS的组件化运用，就是模块化。不管是CommonJS规范、AMD规范、CMD规范还是ES2015的模块机制目的都是对JS进行模块化开发，使得不同功能的逻辑或者业务分离开，每个模块专注自己的业务逻辑，这样不仅是开发的时候工作目录一目了然，后期维护的时候也能快速定位到各个业务逻辑模块。﻿</p>
 
-# demo
-在demo目录下进行组件的新建，依赖npm包管理工具管理。
+# Demo
+在Demo目录下进行组件的新建，依赖npm包管理工具管理。
 具体的流程，请查阅http://m.blog.csdn.net/article/details?id=51322637c
 
-# test
-在test文件夹中对新建的组件进行测试
-在test文件夹中打开cmd窗口
+# Test
+在Test文件夹中对新建的组件进行测试
+在Test文件夹中打开cmd窗口
 npm install
 npm run dev
