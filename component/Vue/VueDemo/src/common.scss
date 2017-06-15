@@ -1,0 +1,20 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  width:100%;
+
+}
+body{
+  font-family: -apple-system, "PingFang SC", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", Arial, "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  color:#7e7e7e;
+}
+.mint-msgbox-confirm{
+  font-size: 14px;
+}
+.disabled{
+  background-color: #9ed99d;
+}
