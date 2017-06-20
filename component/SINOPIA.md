@@ -35,7 +35,7 @@ npm login
 sinopia还有很多相关文件配置，具体的配置请阅读https://segmentfault.com/a/1190000005790827
 
 #### 守护进程<br>
-已经完成了sinopia简单安装启动，但是当cmd窗口关闭，sinopia服务也将关闭。forever可以将其变成后台进程启动。
+已经完成了sinopia简单安装启动，但是当cmd窗口关闭，sinopia服务也将关闭。forever可以将其变成后台进程启动。<br>
 1.安装
 ```
   npm install -g forever
