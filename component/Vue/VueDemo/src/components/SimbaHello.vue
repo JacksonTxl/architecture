@@ -1,6 +1,7 @@
 <template>
   <div>
-    <span id="hello" v-html="message"></span>
+    <span>{{message}}</span>
+    <span>{{title}}</span>
   </div>
 </template>
 
@@ -8,8 +9,20 @@
   export default {
     data () {
       return {
-        message: 'Hello World'
+//        message: 'Hello World'
       }
+    },
+//    props:["message"]
+    props : {
+        title: {
+            type: String,
+            default: '',
+            required: true
+        },
+        message: {
+            type: String,
+            default: ''
+        },
     }
   }
 </script>

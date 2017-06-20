@@ -2,6 +2,7 @@
   <main>
     <el-button type="primary" @click.native="hello">primary</el-button>
     <hello></hello>
+    <s-hello message="1233"></s-hello>
   </main>
 </template>
 
@@ -9,7 +10,7 @@
   import { Button, Message } from 'element-ui'
   import { firstName, lastName, year, multiply, Norm } from 'simba_demo'
 
-  import Hello from 'components/Hello'
+  import Hello from 'components/Hello.vue'
 
   export default {
     components: {

@@ -3,6 +3,7 @@
     <el-button type="primary" @click.native="hello">primary</el-button>
     <hello></hello>
     <div>123456</div>
+    <simba-hello message="aateest" title="2222"></simba-hello>
   </main>
 </template>
 
@@ -10,11 +11,13 @@
   import { Button, Message } from 'element-ui'
 
   import Hello from 'components/Hello'
+  import SimbaHello from 'components/SimbaHello'
 
   export default {
     components: {
       ElButton: Button,
-      Hello
+      Hello,
+      SimbaHello,
     },
     methods: {
       hello () {

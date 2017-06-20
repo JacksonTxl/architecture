@@ -1,8 +1,8 @@
 'use strict'
 
 module.exports = {
-  port: '4003',
-  title: 'demo',
+  port: '4005',
+  title: 'vuedemo',
   vendor: [
     'vue',
     'vue-router'
